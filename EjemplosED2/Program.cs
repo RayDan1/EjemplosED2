@@ -16,9 +16,9 @@
 //numeroConCero = numeroConCero.PadLeft(3, '$');
 //Console.WriteLine(numeroConCero);
 
-string nombre = "Ray";
-string apellido = "Ramirez";
-int edad = 23;
+//string nombre = "Ray";
+//string apellido = "Ramirez"; 
+//int edad = 23;
 
 //string NombreyEdad = nombre +"|" + apellido +"|" + edad;
 //Console.WriteLine(NombreyEdad);
@@ -26,7 +26,11 @@ int edad = 23;
 //string NombreyEdad = string.Format("{0}|{1}|{2}", nombre, apellido, edad);
 //Console.WriteLine(NombreyEdad);
 
-string NombreyEdad = $"{nombre}|{apellido}|{edad}";
-Console.WriteLine(NombreyEdad);
-  
+//string NombreyEdad = $"{nombre}|{apellido}|{edad}";
+//Console.WriteLine(NombreyEdad);
+
 //Invesigar concat
+
+string numeroString = "5";
+int numeroInt = Convert.ToInt32(numeroString);
+Console.WriteLine(numeroInt);
